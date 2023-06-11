@@ -1,0 +1,12 @@
+# project libs
+Django==4.2.2
+python-decouple==3.8
+
+# test libs
+pytest-django==4.5.2
+
+# dev tools
+black==23.3.0
+flake8==6.0.0
+mypy==1.3.0
+pylint==2.17.4
