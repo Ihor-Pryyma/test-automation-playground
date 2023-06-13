@@ -12,11 +12,3 @@ repos:
     rev: 'v1.3.0'
     hooks:
     - id: mypy
-  - repo: https://github.com/PyCQA/pylint
-    rev: v2.17.4
-    hooks:
-    -   id: pylint
-        name: pylint
-        language: python
-        additional_dependencies: ['pylint-django==2.4.4', 'Django', 'python-decouple']
-        args: ["--load-plugins=pylint_django", "--django-settings-module=backend.config.settings"]
