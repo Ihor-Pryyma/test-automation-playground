@@ -18,5 +18,5 @@ repos:
     -   id: pylint
         name: pylint
         language: python
-        additional_dependencies: ['pylint-django==2.4.4', 'Django']
+        additional_dependencies: ['pylint-django==2.4.4', 'Django', 'python-decouple']
         args: ["--load-plugins=pylint_django", "--django-settings-module=backend.config.settings"]
